@@ -1,6 +1,9 @@
 export declare class EmptyVectorError extends Error {
     constructor();
 }
+export declare class InvalidParameterType extends Error {
+    constructor();
+}
 export declare class InvalidVectorTypeError extends Error {
     constructor();
 }
