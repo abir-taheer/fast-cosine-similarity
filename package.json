@@ -1,0 +1,31 @@
+{
+  "name": "fast-cosine-similarity",
+  "version": "1.0.0",
+  "description": "A very fast implementation of cosine-similarity for comparing two vectors. Up to 6x faster than the compute-cosine-similarity library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abir-taheer/fast-cosine-similarity.git"
+  },
+  "keywords": [
+    "cosine",
+    "similarity",
+    "cosine-similarity",
+    "vector",
+    "compare",
+    "fast"
+  ],
+  "author": "abir-taheer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abir-taheer/fast-cosine-similarity/issues"
+  },
+  "homepage": "https://github.com/abir-taheer/fast-cosine-similarity#readme",
+  "devDependencies": {
+    "prettier": ">=3.2.5",
+    "typescript": ">=5.4.5"
+  }
+}
