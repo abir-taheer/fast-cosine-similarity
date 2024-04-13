@@ -4,6 +4,12 @@ export class EmptyVectorError extends Error {
   }
 }
 
+export class InvalidParameterType extends Error {
+  constructor() {
+    super("InvalidParameterType::the parameters must be arrays of numbers.");
+  }
+}
+
 export class InvalidVectorTypeError extends Error {
   constructor() {
     super(
@@ -31,6 +37,10 @@ export const cosineSimilarity = (a: number[], b: number[]) => {
 
   if (!a || !b) {
     throw new MissingVectorError();
+  }
+
+  if (!Array.isArray(a) || !Array.isArray(b)) {
+    throw new InvalidParameterType();
   }
 
   if (!a.length || !b.length) {
