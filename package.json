@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A very fast implementation of cosine-similarity for comparing two vectors. Up to 6x faster than the compute-cosine-similarity library.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "npm test"
   },

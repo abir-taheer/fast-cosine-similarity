@@ -24,7 +24,7 @@ export class ZeroVectorError extends Error {
   }
 }
 
-export const cosineSimilarity = (a, b) => {
+export const cosineSimilarity = (a: number[], b: number[]) => {
   let product_sum = 0;
   let norm_sum_a = 0;
   let norm_sum_b = 0;

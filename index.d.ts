@@ -1,14 +1,13 @@
 export declare class EmptyVectorError extends Error {
-  constructor();
+    constructor();
 }
 export declare class InvalidVectorTypeError extends Error {
-  constructor();
+    constructor();
 }
 export declare class MissingVectorError extends Error {
-  constructor();
+    constructor();
 }
 export declare class ZeroVectorError extends Error {
-  constructor();
+    constructor();
 }
-
 export declare const cosineSimilarity: (a: number[], b: number[]) => number;
