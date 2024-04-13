@@ -9,20 +9,31 @@ Super simple and fast implementation.
 * No external dependencies
 
 ## Installation
-npm:
+### npm
 ```bash
 npm install fast-cosine-similarity
 ```
 
-yarn:
+### yarn
 ```bash
 yarn add fast-cosine-similarity
 ```
     
 
 ## How to use
+### ES6
 ```typescript
 import { cosineSimilarity } from "fast-cosine-similarity";
+
+const vector1 = [0.2, 0.5, 0.4, 0.1, 0.7];
+const vector2 = [0.1, 0.6, 0.3, 0.2, 0.8];
+
+const similarity = cosineSimilarity(vector1, vector2);
+```
+
+### CommonJS
+```typescript
+const { cosineSimilarity } = require("fast-cosine-similarity");
 
 const vector1 = [0.2, 0.5, 0.4, 0.1, 0.7];
 const vector2 = [0.1, 0.6, 0.3, 0.2, 0.8];
